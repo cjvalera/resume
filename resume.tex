@@ -40,29 +40,35 @@
 
 % Sections formatting
 \titleformat{\section}{
-\vspace{-4pt}\scshape\raggedright\large
+    \vspace{-4pt}\scshape\raggedright\large
+    
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 %-------------------------
 % Custom commands
 \newcommand{\resumeItem}[2]{
-\item\small{
-\textbf{#1}{: #2 \vspace{-2pt}}
-}
+    \item\small{
+        \textbf{#1}{: #2 \vspace{-2pt}}
+        
+    }
+    
 }
 
 \newcommand{\resumeItemNoGroup}[1]{
-\item\small{
-{#1 \vspace{-2pt}}
-}
+    \item\small{
+        {#1 \vspace{-2pt}}
+        
+    }
+    
 }
 
 \newcommand{\resumeSubheading}[4]{
-\vspace{-1pt}\item
-\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-\textbf{#1} & #2 \\
-\textit{\small#3} & \textit{\small #4} \\
-\end{tabular*}\vspace{-5pt}
+    \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+    
 }
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
@@ -95,7 +101,7 @@
 \resumeSubHeadingListStart
 \resumeSubheading
 {California State Polytechnic University, Pomona}{Pomona, CA}
-{Bachelors of Science in Computer Science; GPA: 3.01}{Sept 2012 -- Dec 2016}
+{Bachelors of Science in Computer Science}{Sept 2012 -- Dec 2016}
 \resumeSubHeadingListEnd
 
 
@@ -104,23 +110,25 @@
 \resumeSubHeadingListStart
 
 \resumeSubheading
-{ISBX}{Los Angeles, CA}
-{Full Stack Developer}{May 2017 - Present}
+{Medtronic}{Northridge, CA}
+{iOS Software Engineer}{Oct 2017 - Present}
 \resumeItemListStart
 \resumeItemNoGroup
-{Create reusable components and services using Angular's Component based architecture.}
+{Design and implement features for an iOS application for medical devices.}
 \resumeItemNoGroup
-{Back-end Javascript/Typescript developer building RESTful APIs. Worked with different frameworks such as Angular for front-end, Express and Loopback in the back-end and Mocha for testing.}
+{Collaborate with hardware and test team to analyze new requirement and evaluate feasibility.}
 \resumeItemNoGroup
-{Develop new features and designs and responsible for bug-fixes for an internal Redbull iOS app. Collaborate closely with Redbull team in sprint planning, discuss app related issues, and develop robust solutions.}
+{Maintain requirements and design documents.}
+\resumeItemListEnd
+
+\resumeSubheading
+{ISBX}{Los Angeles, CA}
+{Full Stack Developer}{May 2017 - Oct 2017}
+\resumeItemListStart
 \resumeItemNoGroup
-{Tech lead in implementing the redesign of Ribbon, a social networking app based on events. Integrated Foursquare and Facebook API's.}
+{Assist in the design analysis, development, testing and maintaining of iOS applications.}
 \resumeItemNoGroup
-{Migrated QT application to a native Android using MVVM architecture and Data Binding.Ensured compatibility with newer devices while supporting older ones. }
-\resumeItemNoGroup
-{Implemented redesign for The Queen Mary's website and improved their existing CMS built in Processwire, a PHP open source CMS framework.}
-\resumeItemNoGroup
-{Lead developer for multiple iOS projects. Maintained development practices through code review and provide mentorship to other developers.}
+{Maintained development practices through code review and provide mentorship to other developers.}
 \resumeItemNoGroup
 {Collaborate closely with designers, clients, project managers and developers to build a production ready web and mobile applications in an Agile environment.}
 \resumeItemListEnd
@@ -153,16 +161,18 @@
 %-----------PROJECTS-----------------
 \section{Projects}
 \resumeSubHeadingListStart
-\resumeSubItem{Edelbrock}
-{An android app that communicates to a proprietary ECU device via bluetooth. Implemented the UI to show data and controls from/to the ECU.}
-\resumeSubItem{The Queen Mary (\textit{queenmary.com})}
-{An iconic ship attraction website redesign using PHP. Key member in building the CMS using Processwire. }
-\resumeSubItem{MexCocina Cafe (\textit{mexcocinacafe.com})}
-{Responsive and mobile-friendly website built using Wordpress.}
+\resumeSubItem{Bronco Express: Bus Routes}
+{An iOS application for Cal Poly Pomona students to view shuttle's arrival schedules and current location in real-time.}
 \resumeSubItem{Asteriods Clone}
 {An arcade shooter game made with Unity engine using C\# for Windows.}
 \resumeSubItem{Minecraft World}
 {Developed a Minecraft like environment using OpenGL with Lightweight Java Game Library(LWJGL). Rendering a random textured cube world using Simplex Noise.}
+\resumeSubItem{Edelbrock}
+{An android app that communicates to a proprietary ECU device via bluetooth. Implemented the UI to show data and controls from/to the ECU.}
+\resumeSubItem{The Queen Mary (\textit{queenmary.com})}
+{An iconic ship attraction website redesign using PHP. Key member in building the CMS using Processwire. }
+\resumeSubItem{Wag!}
+{Worked with a team in updating user interface to support newer iPhone.}
 
 \resumeSubHeadingListEnd
 
@@ -170,16 +180,16 @@
 \section{Programming Skills}
 \resumeSubHeadingListStart
 \resumeSubItem{Programming Languages \& Others}
-{Swift, JavaScript, Java, TypeScript, HTML, CSS, PHP, SQL}
+{Swift, Objective-C, JavaScript, Java, TypeScript, PHP, SQL}
 \resumeSubItem{Tools, Libraries \& Frameworks}
 {Angular, ReactJS, Gatsby, Bootstrap, NodeJS, JQuery, Postgres, Processwire}
 \resumeSubHeadingListEnd
 
-%--------PROGRAMMING SKILLS------------
-\section{Activities}
-\resumeSubHeadingListStart
-\resumeSubItem{INSAN Foundation Volunteer}{An organization that is dedicated to alleviate hunger and poverty in our communities.}
-\resumeSubHeadingListEnd
+% %--------PROGRAMMING SKILLS------------
+% \section{Activities}
+% \resumeSubHeadingListStart
+% \resumeSubItem{INSAN Foundation Volunteer}{An organization that is dedicated to alleviate hunger and poverty in our communities.}
+% \resumeSubHeadingListEnd
 
 
 %-------------------------------------------
