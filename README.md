@@ -6,4 +6,4 @@ I created this as managing a resume on Google Docs was hard and changing any for
 
 ### License
 
-Format is MIT but all the data is owned by Sourabh Bajaj.
+Format is MIT.
