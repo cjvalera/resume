@@ -1,0 +1,335 @@
+{
+    "basics": {
+        "name": "Christian Valera",
+        "email": "cjvalera@hotmail.com",
+        "phone": "408-917-0370",
+        "photo": {
+            "url": "",
+            "filters": {
+                "size": 128,
+                "shape": "square",
+                "border": false,
+                "grayscale": false
+            },
+            "visible": true
+        },
+        "summary": "",
+        "website": "https://christianvalera.dev",
+        "headline": "Software Engineer · iOS Developer",
+        "location": {
+            "city": "",
+            "region": "",
+            "address": "",
+            "country": "",
+            "postalCode": ""
+        },
+        "profiles": [
+            {
+                "id": "63fb226e-27c7-43b4-ab0d-67a22fee46b0",
+                "url": "https://github.com/cjvalera",
+                "network": "Github",
+                "username": "cjvalera"
+            },
+            {
+                "id": "e621488f-217d-4987-b351-89ce4db0b3f2",
+                "url": "https://www.linkedin.com/in/cjvalera",
+                "network": "LinkedIn",
+                "username": "cjvalera"
+            }
+        ],
+        "birthdate": ""
+    },
+    "sections": {
+        "work": {
+            "id": "work",
+            "name": "Work Experience",
+            "type": "work",
+            "items": [
+                {
+                    "id": "7cdcc58a-b84a-4537-b17f-b70616c1e47a",
+                    "url": "",
+                    "date": {
+                        "end": "",
+                        "start": "2021-08-05"
+                    },
+                    "name": "Glossier",
+                    "summary": "- Designed and implemented features for Glossier POS such as cash scaling support for Retail stores,\nlocalization to support London store, and timebound catalog, contributing to successful product\nlaunches and marketing campaigns.\n- Utilized PHP and Laravel to successfully implement Fulfillment API Deprecation and seamlessly migrate\nto Fulfillment orders for POS.\n- Successfully upgraded the Stripe Terminal SDK from v1.4 to v2.0, enhancing security and compatibility\nwith the latest technologies, ensuring a seamless and secure payment process for customers during\ntransactions.\n- Played a key role in configuring and setting up POS sets across multiple international stores, utilizing\ncustom scripts and manual adjustments, resulting in a consistent and enhanced shopping experience\nfor customers",
+                    "position": "Senior Software Engineer"
+                },
+                {
+                    "id": "ec9a9eb1-aaa5-43e3-a309-1e75e587e304",
+                    "url": "",
+                    "date": {
+                        "end": "2021-07-05",
+                        "start": "2020-12-01"
+                    },
+                    "name": "Medtronic",
+                    "summary": "- Lead iOS development for adding support to new Continuous Glucose Monitor device to existing insulin\npumps\n- Assume full ownership of features in all phases of design, implementation, unit and integration testing,\ndocumentation, deployment, and production troubleshooting.\n- Contributed to system requirement software, user interface design document and software\nconfiguration management plans for Class II mobile apps.",
+                    "position": "Senior Software Engineer"
+                },
+                {
+                    "id": "aeccf6e6-23bf-42d7-8bfb-2cbcc6dc1798",
+                    "url": "",
+                    "date": {
+                        "end": "2020-12-05",
+                        "start": "2018-10-01"
+                    },
+                    "name": " ",
+                    "summary": "- Developed iOS applications to support BLE insulin pump and cloud services.\n- Designed and implemented secure transfer of secured keys from server.\n- Developed help guide functionality which features offline capability, multiple language support and\nautoupdates.\n- Defined and performed feature design documentation and requirement definitions in compliance with\nFDA for Class II and Class III mobile apps.\n- Implemented business requirements, working with crossfunctional stakeholders to define use case and\nfeature scope for mobile app",
+                    "position": "iOS Software Engineer"
+                },
+                {
+                    "id": "3b6ace28-ccb5-4705-ad0d-eb2e43b98e0c",
+                    "url": "",
+                    "date": {
+                        "end": "2018-10-05",
+                        "start": "2017-05-01"
+                    },
+                    "name": "ISBX",
+                    "summary": "- Technical lead of 4 offshore mobile engineers for iOS projects.\n- Designed mobile architecture and developed features for native Android and iOS applications.\n- Worked with clients in a tight feedback loop to validate product requirements.\n- Collaborated closely UI/UX designers and project managers to deliver projects on time and with the\nhighest standard.",
+                    "position": "Full Stack Developer / Mobile Developer"
+                },
+                {
+                    "id": "730fb216-ea61-49c7-a096-90d364b05f41",
+                    "url": "",
+                    "date": {
+                        "end": "2017-05-01",
+                        "start": "2017-02-01"
+                    },
+                    "name": " ",
+                    "summary": "- Developed in Angular a document and file storage management web application. \n- Use of third party integration Stripe’s payment APIs to process payment transactions.\n- Responsible for increasing code coverage for existing web applications.\n- Collaboratively work with offshore teams to maintain project timelines and expectations.",
+                    "position": "Software Developer Intern"
+                }
+            ],
+            "columns": 1,
+            "visible": true
+        },
+        "awards": {
+            "id": "awards",
+            "name": "Awards",
+            "type": "basic",
+            "items": [],
+            "columns": 2,
+            "visible": true
+        },
+        "skills": {
+            "id": "skills",
+            "name": "Skills",
+            "type": "basic",
+            "items": [
+                {
+                    "id": "f86b01ec-3b9b-4d82-9ede-2e13649e3fc4",
+                    "name": "Swift",
+                    "level": "",
+                    "keywords": [
+                        "Swift, ObjectiveC, Ruby, Python, PHP, ObjectiveC, TypeScript, Javascript, Java"
+                    ],
+                    "levelNum": 0
+                },
+                {
+                    "id": "d08740d7-7ccd-40dd-9d3f-fac73284a17b",
+                    "name": "Frameworks and Libraries",
+                    "level": "",
+                    "keywords": [
+                        "Ruby on Rails, RxSwift, SwiftUI, CoreBluetooth, Laravel, React"
+                    ],
+                    "levelNum": 0
+                },
+                {
+                    "id": "1e81ad0f-c82c-4dcd-94ad-3d9969418616",
+                    "name": "Technologies and Tools",
+                    "level": "",
+                    "keywords": [
+                        "AWS (Lambda, S3, DynamoDB), Postgres, GraphQL, Git, Datadog, Sentr"
+                    ],
+                    "levelNum": 0
+                },
+                {
+                    "id": "fdc52de1-123f-4ca0-bcae-e3881e014769",
+                    "name": "Deployments",
+                    "level": "",
+                    "keywords": [
+                        "Jamf, Fastlane, TestFlight"
+                    ],
+                    "levelNum": 0
+                },
+                {
+                    "id": "9c0923f0-c32a-4787-8160-9bab67c4bfbf",
+                    "name": "Testing",
+                    "level": "",
+                    "keywords": [
+                        "Rspec, XCTest, Selenium, Appium, PHPUnit"
+                    ],
+                    "levelNum": 0
+                }
+            ],
+            "columns": 1,
+            "visible": true
+        },
+        "projects": {
+            "id": "projects",
+            "name": "Projects",
+            "type": "basic",
+            "items": [
+                {
+                    "id": "2343a638-30d6-4686-93bf-3b3e0c0fc833",
+                    "url": "",
+                    "date": {
+                        "end": "",
+                        "start": ""
+                    },
+                    "name": "MiniMed Mobile US",
+                    "summary": "- Receives data from insulin pump and connected GST device using CoreBluetooth.\n- Implemented secure communication with a cloud service to retrieve cryptographic keys",
+                    "keywords": [],
+                    "description": "iOS Application"
+                },
+                {
+                    "id": "5dc918e4-1615-4184-b95f-27bd5b7868bc",
+                    "url": "",
+                    "date": {
+                        "end": "",
+                        "start": ""
+                    },
+                    "name": "Queen Mary",
+                    "summary": "- Redesign The Queen Mary's website with a responsive and modern look. Built the CMS using,\n- ProcessWire, an open source CMS framework.",
+                    "keywords": [],
+                    "description": "Custom CSM"
+                },
+                {
+                    "id": "cf7e8609-3fc9-4d64-aa1d-9f48637d4ada",
+                    "url": "",
+                    "date": {
+                        "end": "",
+                        "start": ""
+                    },
+                    "name": "E-Tuner 4",
+                    "summary": "- Receive and sent data to a proprietary ECU via Bluetooth.\n- Migrated UI components from QT to native Android in Java.\n- Hands on experience with Android Data Binding and RxJava",
+                    "keywords": [],
+                    "description": "Android Application"
+                }
+            ],
+            "columns": 1,
+            "visible": true
+        },
+        "education": {
+            "id": "education",
+            "name": "Education",
+            "type": "basic",
+            "items": [
+                {
+                    "id": "9ec379b7-548a-44be-9d66-65c8004275ea",
+                    "url": "",
+                    "area": "",
+                    "date": {
+                        "end": "2016-12-05",
+                        "start": "2012-09-05"
+                    },
+                    "score": "",
+                    "degree": "Computer Science",
+                    "courses": [],
+                    "summary": "",
+                    "institution": "California State Polytechnic University, Pomona"
+                }
+            ],
+            "columns": 1,
+            "visible": true
+        },
+        "interests": {
+            "id": "interests",
+            "name": "Interests",
+            "type": "basic",
+            "items": [],
+            "columns": 2,
+            "visible": true
+        },
+        "languages": {
+            "id": "languages",
+            "name": "Languages",
+            "type": "basic",
+            "items": [],
+            "columns": 2,
+            "visible": true
+        },
+        "volunteer": {
+            "id": "volunteer",
+            "name": "Volunteer Experience",
+            "type": "basic",
+            "items": [],
+            "columns": 2,
+            "visible": true
+        },
+        "references": {
+            "id": "references",
+            "name": "References",
+            "type": "basic",
+            "items": [],
+            "columns": 2,
+            "visible": true
+        },
+        "publications": {
+            "id": "publications",
+            "name": "Publications",
+            "type": "basic",
+            "items": [],
+            "columns": 2,
+            "visible": true
+        },
+        "certifications": {
+            "id": "certifications",
+            "name": "Certifications",
+            "type": "basic",
+            "items": [],
+            "columns": 2,
+            "visible": true
+        }
+    },
+    "metadata": {
+        "css": {
+            "value": "/* Enter custom CSS here */\n\nh3 {\n    color: #000;\n}",
+            "visible": false
+        },
+        "date": {
+            "format": "MMM YYYY"
+        },
+        "page": {
+            "format": "A4"
+        },
+        "theme": {
+            "text": "#000000",
+            "primary": "#dedede",
+            "background": "#ffffff"
+        },
+        "layout": [
+            [
+                [
+                    "work",
+                    "volunteer",
+                    "references",
+                    "education"
+                ],
+                [
+                    "skills",
+                    "projects",
+                    "interests",
+                    "languages",
+                    "awards",
+                    "certifications",
+                    "publications"
+                ]
+            ]
+        ],
+        "locale": "en",
+        "template": "gengar",
+        "typography": {
+            "size": {
+                "body": 12,
+                "heading": 24
+            },
+            "family": {
+                "body": "Lora",
+                "heading": "Lora"
+            }
+        }
+    },
+    "public": false
+}
