@@ -1,335 +1,433 @@
 {
-    "basics": {
-        "name": "Christian Valera",
-        "email": "cjvalera@hotmail.com",
-        "phone": "",
-        "photo": {
-            "url": "",
-            "filters": {
-                "size": 128,
-                "shape": "square",
-                "border": false,
-                "grayscale": false
-            },
-            "visible": true
-        },
-        "summary": "",
-        "website": "https://christianvalera.dev",
-        "headline": "Software Engineer · iOS Developer",
-        "location": {
-            "city": "",
-            "region": "",
-            "address": "",
-            "country": "",
-            "postalCode": ""
-        },
-        "profiles": [
-            {
-                "id": "63fb226e-27c7-43b4-ab0d-67a22fee46b0",
-                "url": "https://github.com/cjvalera",
-                "network": "Github",
-                "username": "cjvalera"
-            },
-            {
-                "id": "e621488f-217d-4987-b351-89ce4db0b3f2",
-                "url": "https://www.linkedin.com/in/cjvalera",
-                "network": "LinkedIn",
-                "username": "cjvalera"
-            }
-        ],
-        "birthdate": ""
+  "basics": {
+    "name": "Christian Valera",
+    "headline": "Software Engineer",
+    "email": "cjvalera@hotmail.com",
+    "phone": "",
+    "location": "",
+    "url": {
+      "label": "",
+      "href": "https://christianvalera.dev"
     },
-    "sections": {
-        "work": {
-            "id": "work",
-            "name": "Work Experience",
-            "type": "work",
-            "items": [
-                {
-                    "id": "7cdcc58a-b84a-4537-b17f-b70616c1e47a",
-                    "url": "",
-                    "date": {
-                        "end": "",
-                        "start": "2021-08-05"
-                    },
-                    "name": "Glossier",
-                    "summary": "- Designed and implemented features for Glossier POS such as cash scaling support for Retail stores,\nlocalization to support London store, and timebound catalog, contributing to successful product\nlaunches and marketing campaigns.\n- Utilized PHP and Laravel to successfully implement Fulfillment API Deprecation and seamlessly migrate\nto Fulfillment orders for POS.\n- Successfully upgraded the Stripe Terminal SDK from v1.4 to v2.0, enhancing security and compatibility\nwith the latest technologies, ensuring a seamless and secure payment process for customers during\ntransactions.\n- Played a key role in configuring and setting up POS sets across multiple international stores, utilizing\ncustom scripts and manual adjustments, resulting in a consistent and enhanced shopping experience\nfor customers",
-                    "position": "Senior Software Engineer"
-                },
-                {
-                    "id": "ec9a9eb1-aaa5-43e3-a309-1e75e587e304",
-                    "url": "",
-                    "date": {
-                        "end": "2021-07-05",
-                        "start": "2020-12-01"
-                    },
-                    "name": "Medtronic",
-                    "summary": "- Lead iOS development for adding support to new Continuous Glucose Monitor device to existing insulin\npumps\n- Assume full ownership of features in all phases of design, implementation, unit and integration testing,\ndocumentation, deployment, and production troubleshooting.\n- Contributed to system requirement software, user interface design document and software\nconfiguration management plans for Class II mobile apps.",
-                    "position": "Senior Software Engineer"
-                },
-                {
-                    "id": "aeccf6e6-23bf-42d7-8bfb-2cbcc6dc1798",
-                    "url": "",
-                    "date": {
-                        "end": "2020-12-05",
-                        "start": "2018-10-01"
-                    },
-                    "name": " ",
-                    "summary": "- Developed iOS applications to support BLE insulin pump and cloud services.\n- Designed and implemented secure transfer of secured keys from server.\n- Developed help guide functionality which features offline capability, multiple language support and\nautoupdates.\n- Defined and performed feature design documentation and requirement definitions in compliance with\nFDA for Class II and Class III mobile apps.\n- Implemented business requirements, working with crossfunctional stakeholders to define use case and\nfeature scope for mobile app",
-                    "position": "iOS Software Engineer"
-                },
-                {
-                    "id": "3b6ace28-ccb5-4705-ad0d-eb2e43b98e0c",
-                    "url": "",
-                    "date": {
-                        "end": "2018-10-05",
-                        "start": "2017-05-01"
-                    },
-                    "name": "ISBX",
-                    "summary": "- Technical lead of 4 offshore mobile engineers for iOS projects.\n- Designed mobile architecture and developed features for native Android and iOS applications.\n- Worked with clients in a tight feedback loop to validate product requirements.\n- Collaborated closely UI/UX designers and project managers to deliver projects on time and with the\nhighest standard.",
-                    "position": "Full Stack Developer / Mobile Developer"
-                },
-                {
-                    "id": "730fb216-ea61-49c7-a096-90d364b05f41",
-                    "url": "",
-                    "date": {
-                        "end": "2017-05-01",
-                        "start": "2017-02-01"
-                    },
-                    "name": " ",
-                    "summary": "- Developed in Angular a document and file storage management web application. \n- Use of third party integration Stripe’s payment APIs to process payment transactions.\n- Responsible for increasing code coverage for existing web applications.\n- Collaboratively work with offshore teams to maintain project timelines and expectations.",
-                    "position": "Software Developer Intern"
-                }
-            ],
-            "columns": 1,
-            "visible": true
-        },
-        "awards": {
-            "id": "awards",
-            "name": "Awards",
-            "type": "basic",
-            "items": [],
-            "columns": 2,
-            "visible": true
-        },
-        "skills": {
-            "id": "skills",
-            "name": "Skills",
-            "type": "basic",
-            "items": [
-                {
-                    "id": "f86b01ec-3b9b-4d82-9ede-2e13649e3fc4",
-                    "name": "Swift",
-                    "level": "",
-                    "keywords": [
-                        "Swift, ObjectiveC, Ruby, Python, PHP, ObjectiveC, TypeScript, Javascript, Java"
-                    ],
-                    "levelNum": 0
-                },
-                {
-                    "id": "d08740d7-7ccd-40dd-9d3f-fac73284a17b",
-                    "name": "Frameworks and Libraries",
-                    "level": "",
-                    "keywords": [
-                        "Ruby on Rails, RxSwift, SwiftUI, CoreBluetooth, Laravel, React"
-                    ],
-                    "levelNum": 0
-                },
-                {
-                    "id": "1e81ad0f-c82c-4dcd-94ad-3d9969418616",
-                    "name": "Technologies and Tools",
-                    "level": "",
-                    "keywords": [
-                        "AWS (Lambda, S3, DynamoDB), Postgres, GraphQL, Git, Datadog, Sentr"
-                    ],
-                    "levelNum": 0
-                },
-                {
-                    "id": "fdc52de1-123f-4ca0-bcae-e3881e014769",
-                    "name": "Deployments",
-                    "level": "",
-                    "keywords": [
-                        "Jamf, Fastlane, TestFlight"
-                    ],
-                    "levelNum": 0
-                },
-                {
-                    "id": "9c0923f0-c32a-4787-8160-9bab67c4bfbf",
-                    "name": "Testing",
-                    "level": "",
-                    "keywords": [
-                        "Rspec, XCTest, Selenium, Appium, PHPUnit"
-                    ],
-                    "levelNum": 0
-                }
-            ],
-            "columns": 1,
-            "visible": true
-        },
-        "projects": {
-            "id": "projects",
-            "name": "Projects",
-            "type": "basic",
-            "items": [
-                {
-                    "id": "2343a638-30d6-4686-93bf-3b3e0c0fc833",
-                    "url": "",
-                    "date": {
-                        "end": "",
-                        "start": ""
-                    },
-                    "name": "MiniMed Mobile US",
-                    "summary": "- Receives data from insulin pump and connected GST device using CoreBluetooth.\n- Implemented secure communication with a cloud service to retrieve cryptographic keys",
-                    "keywords": [],
-                    "description": "iOS Application"
-                },
-                {
-                    "id": "5dc918e4-1615-4184-b95f-27bd5b7868bc",
-                    "url": "",
-                    "date": {
-                        "end": "",
-                        "start": ""
-                    },
-                    "name": "Queen Mary",
-                    "summary": "- Redesign The Queen Mary's website with a responsive and modern look. Built the CMS using,\n- ProcessWire, an open source CMS framework.",
-                    "keywords": [],
-                    "description": "Custom CSM"
-                },
-                {
-                    "id": "cf7e8609-3fc9-4d64-aa1d-9f48637d4ada",
-                    "url": "",
-                    "date": {
-                        "end": "",
-                        "start": ""
-                    },
-                    "name": "E-Tuner 4",
-                    "summary": "- Receive and sent data to a proprietary ECU via Bluetooth.\n- Migrated UI components from QT to native Android in Java.\n- Hands on experience with Android Data Binding and RxJava",
-                    "keywords": [],
-                    "description": "Android Application"
-                }
-            ],
-            "columns": 1,
-            "visible": true
-        },
-        "education": {
-            "id": "education",
-            "name": "Education",
-            "type": "basic",
-            "items": [
-                {
-                    "id": "9ec379b7-548a-44be-9d66-65c8004275ea",
-                    "url": "",
-                    "area": "",
-                    "date": {
-                        "end": "2016-12-05",
-                        "start": "2012-09-05"
-                    },
-                    "score": "",
-                    "degree": "Computer Science",
-                    "courses": [],
-                    "summary": "",
-                    "institution": "California State Polytechnic University, Pomona"
-                }
-            ],
-            "columns": 1,
-            "visible": true
-        },
-        "interests": {
-            "id": "interests",
-            "name": "Interests",
-            "type": "basic",
-            "items": [],
-            "columns": 2,
-            "visible": true
-        },
-        "languages": {
-            "id": "languages",
-            "name": "Languages",
-            "type": "basic",
-            "items": [],
-            "columns": 2,
-            "visible": true
-        },
-        "volunteer": {
-            "id": "volunteer",
-            "name": "Volunteer Experience",
-            "type": "basic",
-            "items": [],
-            "columns": 2,
-            "visible": true
-        },
-        "references": {
-            "id": "references",
-            "name": "References",
-            "type": "basic",
-            "items": [],
-            "columns": 2,
-            "visible": true
-        },
-        "publications": {
-            "id": "publications",
-            "name": "Publications",
-            "type": "basic",
-            "items": [],
-            "columns": 2,
-            "visible": true
-        },
-        "certifications": {
-            "id": "certifications",
-            "name": "Certifications",
-            "type": "basic",
-            "items": [],
-            "columns": 2,
-            "visible": true
+    "customFields": [],
+    "picture": {
+      "url": "",
+      "size": 64,
+      "aspectRatio": 1,
+      "borderRadius": 0,
+      "effects": {
+        "hidden": false,
+        "border": false,
+        "grayscale": false
+      }
+    }
+  },
+  "sections": {
+    "summary": {
+      "name": "Summary",
+      "columns": 1,
+      "visible": true,
+      "id": "summary",
+      "content": "<p></p>"
+    },
+    "awards": {
+      "name": "Awards",
+      "columns": 1,
+      "visible": true,
+      "id": "awards",
+      "items": []
+    },
+    "certifications": {
+      "name": "Certifications",
+      "columns": 1,
+      "visible": true,
+      "id": "certifications",
+      "items": []
+    },
+    "education": {
+      "name": "Education",
+      "columns": 1,
+      "visible": true,
+      "id": "education",
+      "items": [
+        {
+          "id": "xf03fzkndjoe7b0iod4uqeoo",
+          "visible": true,
+          "institution": "California State Polytechnic University, Pomona",
+          "studyType": "",
+          "area": "Computer Science",
+          "score": "",
+          "date": "Sept 2012 - Dec 2016",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": ""
+          }
         }
+      ]
     },
-    "metadata": {
-        "css": {
-            "value": "/* Enter custom CSS here */\n\nh3 {\n    color: #000;\n}",
-            "visible": false
+    "experience": {
+      "name": "Experience",
+      "columns": 1,
+      "visible": true,
+      "id": "experience",
+      "items": [
+        {
+          "id": "zjn83kdwlz868a5o5svn59nu",
+          "visible": true,
+          "company": "Glossier",
+          "position": "Senior Software Engineer",
+          "location": "",
+          "date": "Aug 2021 - Present",
+          "summary": "<ul><li><p>Led the expansion of Glossier's international reach by strategically implementing comprehensive international support systems, resulting in the brand's ingress into 100+ countries, effectively broadening global presence and accessibility.</p></li><li><p>Developed and integrated new features into Glossier's POS system, including cash scaling support for retail stores and localization for international stores, thereby improving operational efficiency and customer experience.</p></li><li><p>Support load testing procedures to ensure the smooth functioning of systems during peak sales periods, mitigating potential performance bottlenecks and maintaining seamless user experience.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
         },
-        "date": {
-            "format": "MMM YYYY"
+        {
+          "id": "mogcxbvbmzjjierqvcfxo8iu",
+          "visible": true,
+          "company": "Medtronic",
+          "position": "Senior Software Engineer",
+          "location": "",
+          "date": "Dec 2020 - July 2021",
+          "summary": "<ul><li><p>Developed an iOS application enabling firmware upgrades via secure BLE for the MiniMed™ 780G System, ensuring seamless and secure device maintenance.</p></li><li><p>Spearheaded iOS development efforts to integrate support for a new Continuous Glucose Monitor device into existing insulin pumps, enhancing device interoperability and user experience.</p></li><li><p>Took complete ownership of features throughout the development lifecycle, including design, implementation, unit and integration testing, documentation, deployment, and production troubleshooting, ensuring end-to-end quality and functionality.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
         },
-        "page": {
-            "format": "A4"
+        {
+          "id": "le5vz6tgq4fxcjsh9c0k2m38",
+          "visible": true,
+          "company": " Medtronic",
+          "position": "iOS Software Engineer",
+          "location": "",
+          "date": "Oct 2018 - Dec 2020",
+          "summary": "<ul><li><p>Designed and implemented a secure transfer mechanism for encrypted keys from cloud services to both the Insulin Pump system and CGM systems, ensuring data integrity and confidentiality.</p></li><li><p>Developed a comprehensive help guide functionality for an iOS application, incorporating offline capability, multilingual support, and automated updates to enhance user experience and accessibility.</p></li><li><p>Defined and executed feature design documentation and requirement specifications in adherence to FDA regulations for Class II and Class III mobile applications, ensuring compliance with industry standards and regulatory requirements.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
         },
-        "theme": {
-            "text": "#000000",
-            "primary": "#dedede",
-            "background": "#ffffff"
+        {
+          "id": "waw5h1jees4n6cwiyns6liti",
+          "visible": true,
+          "company": "ISBX",
+          "position": "Full Stack Developer / Mobile Developer",
+          "location": "",
+          "date": "May 2017 - Oct 2018",
+          "summary": "<ul><li><p>Provided technical guidance and mentorship to 4 offshore developers, fostering a collaborative and knowledge-sharing environment within the team.</p></li><li><p>Integrated third-party APIs and SDKs to enhance app functionality and performance, including payment gateways, social media platforms, and geolocation services.</p></li><li><p>Collaborated with cross-functional teams including designers, product managers, and quality assurance engineers to deliver high-quality mobile applications.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
         },
-        "layout": [
-            [
-                [
-                    "work",
-                    "volunteer",
-                    "references",
-                    "education"
-                ],
-                [
-                    "skills",
-                    "projects",
-                    "interests",
-                    "languages",
-                    "awards",
-                    "certifications",
-                    "publications"
-                ]
-            ]
-        ],
-        "locale": "en",
-        "template": "gengar",
-        "typography": {
-            "size": {
-                "body": 12,
-                "heading": 24
-            },
-            "family": {
-                "body": "Lora",
-                "heading": "Lora"
-            }
+        {
+          "id": "wzu0z998hrz62bz0k5o6volt",
+          "visible": true,
+          "company": "ISBX",
+          "position": "Software Developer Intern",
+          "location": "",
+          "date": "Feb 2017 - May 2017",
+          "summary": "<ul><li><p>Developed a file storage management web application using Angular, focusing on user-friendly interfaces and efficient data management.</p></li><li><p>Integrated Stripe's payment APIs seamlessly into the web application, facilitating secure and reliable payment transactions for users.</p></li><li><p>Utilized version control systems such as Git to manage codebase and collaborate with team members effectively.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": ""
+          }
         }
+      ]
     },
-    "public": false
+    "volunteer": {
+      "name": "Volunteering",
+      "columns": 1,
+      "visible": true,
+      "id": "volunteer",
+      "items": []
+    },
+    "interests": {
+      "name": "Interests",
+      "columns": 1,
+      "visible": true,
+      "id": "interests",
+      "items": []
+    },
+    "languages": {
+      "name": "Languages",
+      "columns": 1,
+      "visible": true,
+      "id": "languages",
+      "items": [
+        {
+          "id": "g2qxnxj39yf0byxhgxkv3rl4",
+          "visible": true,
+          "name": "English",
+          "description": "",
+          "level": 5
+        },
+        {
+          "id": "is1f541h8svy7r0co394ka9r",
+          "visible": true,
+          "name": "Tagalog",
+          "description": "",
+          "level": 5
+        },
+        {
+          "id": "zf0tdajn2jlceywzi6phghxd",
+          "visible": true,
+          "name": "Ilocano",
+          "description": "",
+          "level": 5
+        },
+        {
+          "id": "youyoiu5x08d2mct3bbshop4",
+          "visible": true,
+          "name": "Spanish",
+          "description": "",
+          "level": 3
+        }
+      ]
+    },
+    "profiles": {
+      "name": "Profiles",
+      "columns": 2,
+      "visible": false,
+      "id": "profiles",
+      "items": [
+        {
+          "id": "l0gineczy753yni79p617tk6",
+          "visible": true,
+          "network": "Github",
+          "username": "cjvalera",
+          "icon": "github",
+          "url": {
+            "label": "",
+            "href": "https://github.com/cjvalera"
+          }
+        },
+        {
+          "id": "ox79d6cf8l36fno5897te0qa",
+          "visible": true,
+          "network": "LinkedIn",
+          "username": "cjvalera",
+          "icon": "linkedin",
+          "url": {
+            "label": "",
+            "href": "https://www.linkedin.com/in/cjvalera"
+          }
+        }
+      ]
+    },
+    "projects": {
+      "name": "Projects",
+      "columns": 1,
+      "visible": true,
+      "id": "projects",
+      "items": [
+        {
+          "id": "jb6rd24b4o28s800mb3dpa1l",
+          "visible": true,
+          "name": "MiniMed Mobile US",
+          "description": "",
+          "date": "",
+          "summary": "<p>An iOS application displaying real-time data from the MiniMed™ 780G system and CGM, allowing users to monitor their current glucose levels and trends.</p>",
+          "keywords": [
+            "Swift",
+            "ObjectiveC",
+            "BLE"
+          ],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "arvik4gn2h21nuiq3auyi1cb",
+          "visible": true,
+          "name": "E-Tuner 4",
+          "description": "Android Application",
+          "date": "",
+          "summary": "<p>An Android app designed to interface with a proprietary ECU.</p>",
+          "keywords": [
+            "QT",
+            "Java",
+            "Kotlin"
+          ],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        },
+        {
+          "id": "r42iqa3hinaxprw6gqpmmwnz",
+          "visible": true,
+          "name": "Queen Mary",
+          "description": "",
+          "date": "",
+          "summary": "<p>The Queen Mary's website with a responsive and contemporary design with a custom CMS.</p>",
+          "keywords": [
+            "PHP",
+            "Processwire"
+          ],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "publications": {
+      "name": "Publications",
+      "columns": 1,
+      "visible": true,
+      "id": "publications",
+      "items": []
+    },
+    "references": {
+      "name": "References",
+      "columns": 1,
+      "visible": true,
+      "id": "references",
+      "items": []
+    },
+    "skills": {
+      "name": "Skills",
+      "columns": 1,
+      "visible": true,
+      "id": "skills",
+      "items": [
+        {
+          "id": "k3p4qzrmxrne3n1pe2h9zf6s",
+          "visible": true,
+          "name": "Programming Languages",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Ruby",
+            "Python",
+            "PHP",
+            "TypeScript",
+            "Javascript",
+            "Swift"
+          ]
+        },
+        {
+          "id": "byf8tymkatv516kvr9fxiaxm",
+          "visible": true,
+          "name": "Web Frameworks",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Ruby on Rails",
+            "Laravel",
+            "Angular"
+          ]
+        },
+        {
+          "id": "jdrbxqoemliea8urp95cuisq",
+          "visible": true,
+          "name": "Technologies and Tools",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "GraphQL",
+            "Git",
+            "Shopify",
+            "AWS"
+          ]
+        },
+        {
+          "id": "m2x4f9d15sb692js65m56yna",
+          "visible": true,
+          "name": "Deployments",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Jamf",
+            "Fastlane",
+            "TestFlight",
+            "Heroku",
+            "Cloud66"
+          ]
+        },
+        {
+          "id": "jcct7t75z90y0d91krvspgrs",
+          "visible": true,
+          "name": "Testing",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Appium",
+            "XCTest",
+            "Selenium"
+          ]
+        },
+        {
+          "id": "egexbfa9yhktgy86f91ijqtn",
+          "visible": true,
+          "name": "",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        }
+      ]
+    },
+    "custom": {}
+  },
+  "metadata": {
+    "template": "azurill",
+    "layout": [
+      [
+        [
+          "profiles",
+          "summary",
+          "experience",
+          "volunteer",
+          "references"
+        ],
+        [
+          "skills",
+          "projects",
+          "education",
+          "languages",
+          "interests",
+          "certifications",
+          "awards",
+          "publications"
+        ]
+      ]
+    ],
+    "css": {
+      "value": ".section {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+      "visible": false
+    },
+    "page": {
+      "margin": 14,
+      "format": "a4",
+      "options": {
+        "breakLine": true,
+        "pageNumbers": true
+      }
+    },
+    "theme": {
+      "background": "#fff1f1",
+      "text": "#000000",
+      "primary": "#000000"
+    },
+    "typography": {
+      "font": {
+        "family": "GFS Didot",
+        "subset": "latin",
+        "variants": [
+          "regular"
+        ],
+        "size": 12
+      },
+      "lineHeight": 1.2,
+      "hideIcons": false,
+      "underlineLinks": true
+    },
+    "notes": ""
+  }
 }
